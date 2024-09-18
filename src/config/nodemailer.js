@@ -11,7 +11,7 @@ const transporter = nodemailer.createTransport({
 });
 
 const sendVerificationEmail = async (email, token) => {
-  const verificationLink = `http://localhost:3000/api/auth/verify/${token}`;
+  const verificationLink = `https://dg-back.onrender.com/api/auth/verify/${token}`;
 
   const mailOptions = {
     from: process.env.EMAIL_USER,
