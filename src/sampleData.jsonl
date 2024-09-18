@@ -1,0 +1,294 @@
+[
+  {
+    "name": "Agile Scrum Workshop",
+    "description": "An in-depth workshop on Agile and Scrum methodologies. This course covers all essential aspects of Agile Scrum including planning, execution, and review. Ideal for professionals looking to enhance their Scrum skills and knowledge in real-world applications.",
+    "image": "../assets/assets_dg-site/logo/new logo for cources/PRINCE2Agile_ATO logo.png",
+    "category": "category_id_here",
+    "options": [
+      {
+        "type": "Book",
+        "price": 50,
+        "description": "Printed book edition of the Agile Scrum Workshop.",
+      },
+      {
+        "type": "Online Bootcamp",
+        "price": 200,
+        "description": "Live instructor-led online bootcamp for Agile Scrum.",
+      },
+      {
+        "type": "Self Learning Course",
+        "price": 150,
+        "description": "Self-paced online course with video lectures and quizzes.",
+      },
+      {
+        "type": "Mock Test",
+        "price": 30,
+        "description": "Mock test series to evaluate your understanding of Agile Scrum.",
+      }
+    ]
+  },
+  {
+    "name": "Peoplecert SCRUM Master 1",
+    "description": "Preparation course for the Peoplecert SCRUM Master 1 certification. This course provides a comprehensive understanding of Scrum principles and practices necessary to become a certified Scrum Master.",
+    "image": "../assets/assets_dg-site/logo/new logo for cources/Scrum fullLogo.png",
+    "category": "category_id_here",
+    "options": [
+      {
+        "type": "Book",
+        "price": 60,
+        "description": "Printed book edition for SCRUM Master 1 certification.",
+      },
+      {
+        "type": "Online Bootcamp",
+        "price": 250,
+        "description": "Live instructor-led online bootcamp for SCRUM Master 1.",
+      },
+      {
+        "type": "Self Learning Course",
+        "price": 180,
+        "description": "Self-paced online course for SCRUM Master 1 certification.",
+      },
+      {
+        "type": "Mock Test",
+        "price": 40,
+        "description": "Mock test series to prepare for SCRUM Master 1 certification.",
+      }
+    ]
+  },
+  {
+    "name": "Peoplecert SCRUM Master 2",
+    "description": "Advanced course for the Peoplecert SCRUM Master 2 certification. This course is designed for experienced Scrum Masters who want to advance their skills and knowledge in Scrum.",
+    "image": "../assets/assets_dg-site/logo/new logo for cources/Scrum fullLogo.png",
+    "category": "category_id_here",
+    "options": [
+      {
+        "type": "Book",
+        "price": 70,
+        "description": "Printed book edition for SCRUM Master 2 certification.",
+      },
+      {
+        "type": "Online Bootcamp",
+        "price": 300,
+        "description": "Live instructor-led online bootcamp for SCRUM Master 2.",
+      },
+      {
+        "type": "Self Learning Course",
+        "price": 200,
+        "description": "Self-paced online course for SCRUM Master 2 certification.",
+      },
+      {
+        "type": "Mock Test",
+        "price": 50,
+        "description": "Mock test series to prepare for SCRUM Master 2 certification.",
+      }
+    ]
+  },
+  {
+    "name": "Peoplecert SCRUM PRODUCT OWNER I",
+    "description": "Course designed for those seeking the Peoplecert SCRUM PRODUCT OWNER I certification. This course covers all essential aspects needed to become a certified Product Owner in Scrum.",
+    "image": "../assets/assets_dg-site/logo/new logo for cources/Scrum fullLogo.png",
+    "category": "category_id_here", // Replace with actual category ObjectId
+    "options": [
+      {
+        "type": "Book",
+        "price": 80,
+        "description": "Printed book edition for SCRUM Product Owner I certification.",
+      },
+      {
+        "type": "Online Bootcamp",
+        "price": 350,
+        "description": "Live instructor-led online bootcamp for SCRUM Product Owner I.",
+      },
+      {
+        "type": "Self Learning Course",
+        "price": 220,
+        "description": "Self-paced online course for SCRUM Product Owner I certification.",
+      },
+      {
+        "type": "Mock Test",
+        "price": 60,
+        "description": "Mock test series to prepare for SCRUM Product Owner I certification.",
+      }
+    ]
+  },
+  {
+    "name": "Prince2 ® Foundation",
+    "description": "Foundation course for the Prince2 ® certification. This course covers the basics of the Prince2 ® methodology, including principles, processes, and themes.",
+    "image": "../assets/assets_dg-site/logo/new logo for cources/PRINCE2_ATO logo.png",
+    "category": "category_id_here", // Replace with actual category ObjectId
+    "options": [
+      {
+        "type": "Book",
+        "price": 50,
+        "description": "Printed book edition for Prince2 ® Foundation.",
+      },
+      {
+        "type": "Online Bootcamp",
+        "price": 180,
+        "description": "Live instructor-led online bootcamp for Prince2 ® Foundation.",
+      },
+      {
+        "type": "Self Learning Course",
+        "price": 150,
+        "description": "Self-paced online course for Prince2 ® Foundation.",
+      },
+      {
+        "type": "Mock Test",
+        "price": 25,
+        "description": "Mock test series for Prince2 ® Foundation.",
+      }
+    ]
+  },
+  {
+    "name": "Prince2 ® Practitioner",
+    "description": "Advanced course for the Prince2 ® Practitioner certification. This course is intended for those who have completed the Foundation level and want to further their skills in Prince2 ®.",
+    "image": "../assets/assets_dg-site/logo/new logo for cources/PRINCE2_ATO logo.png",
+    "category": "category_id_here", // Replace with actual category ObjectId
+    "options": [
+      {
+        "type": "Book",
+        "price": 60,
+        "description": "Printed book edition for Prince2 ® Practitioner.",
+      },
+      {
+        "type": "Online Bootcamp",
+        "price": 220,
+        "description": "Live instructor-led online bootcamp for Prince2 ® Practitioner.",
+      },
+      {
+        "type": "Self Learning Course",
+        "price": 180,
+        "description": "Self-paced online course for Prince2 ® Practitioner."
+      },
+      {
+        "type": "Mock Test",
+        "price": 35,
+        "description": "Mock test series for Prince2 ® Practitioner."
+      }
+    ]
+  },
+  {
+    "name": "ITIL®4 Create,Deliver and Support.",
+    "description": "ITIL® 4 Create, Deliver and Support addresses the cultural and team management aspects of product and service management; provides an overview of the tools and technologies.",
+    "image": "../assets/assets_dg-site/logo/new logo for cources/ITIL_ATO logo.png",
+    "category": "IT Service Management – ITIL ®",
+    "options": [
+      {
+        "type": "Book",
+        "price": 7950.00,
+        "description": "Printed book edition for ITIL®4 Create,Deliver and Support."
+      },
+      {
+        "type": "Online Bootcamp",
+        "description": "Live instructor-led online bootcamp for ITIL®4 Create,Deliver and Support."
+      },
+      {
+        "type": "Self Learning Course",
+        "heading": "ITIL® 4 Create, Deliver and Support - Self Learning Course",
+        "price": 34000.00,
+        "description": "Self-paced online course for ITIL®4 Create,Deliver and Support."
+      },
+      {
+        "type": "Mock Test",
+        "price": "free",
+        "description": "ITIL® 4: CREATE, DELIVER AND SUPPORT certification exam simulator helps students prepare for the ITIL® 4: CREATE, DELIVER AND SUPPORT examination, based on the actual exam pattern.."
+      },
+      {
+        "type": "Corporate Training",
+        "description": "Comprehensive ITIL® 4: Create, Deliver, and Support corporate training program designed to prepare teams for certification. Includes hands-on workshops and an exam simulator based on the actual exam pattern."
+      }
+    ]
+  },
+  {
+    "name": "MSP ® 5 Foundation.",
+    "description": "MSP (Managing Successful Programmes), 5th edition is designed to align programmes and projects to organizational strategy and enable enterprise agility.",
+    "image": "../assets/assets_dg-site/logo/new logo for cources/MSP_ATO_Logo.png",
+    "category": "Project Management",
+    "options": [
+      {
+        "type": "Book",
+        "price": 7950.00,
+        "description": "Printed book edition for MSP ® 5 Foundation."
+      },
+      {
+        "type": "Mock Test",
+        "price": "free",
+        "description": "MANAGING SUCCESSFUL PROGRAMMES certification exam simulator helps students prepare for the MANAGING SUCCESSFUL PROGRAMMES, based on the actual exam pattern."
+      },
+      {
+        "type": "Corporate Training",
+        "description": "Tailored MSP® 5 Foundation corporate training program designed to align your teams with organizational strategy. Includes interactive workshops and a comprehensive exam simulator."
+      }
+    ]
+  },
+  {
+    "name": "SDI – Service Desk Analyst.",
+    "description": "The Service Desk Institute (SDI) ® is the leading professional organization for everyone working in the IT service and support industry.",
+    "image": "../assets/assets_dg-site/logo/new logo for cources/MSP_ATO_Logo.png",
+    "category": "SDI – Service Desk Manager",
+    "options": [
+      {
+        "type": "Book",
+        "price": 7950.00,
+        "description": "Printed book edition for SDI – Service Desk Analyst."
+      },
+      {
+        "type": "Mock Test",
+        "price": "free",
+        "description": "Service Desk Analyst V8 certification exam simulator helps students prepare for the Service Desk Analyst V8, based on the actual exam pattern."
+      },
+      {
+        "type": "Online Bootcamp",
+        "description": "Live instructor-led online bootcamp for SDI – Service Desk Analyst."
+      },
+      {
+        "type": "Corporate Training",
+        "description": "Tailored MSP® 5 Foundation corporate training program designed to align your teams with organizational strategy. Includes interactive workshops and a comprehensive exam simulator."
+      }
+    ]
+  },
+  {
+    "name": "MoP ® Foundation.",
+    "description": "Portfolio management plays a critical role in facilitating organizational survival and growth – by better coordinating investment in programmes and projects.",
+    "image": "../assets/assets_dg-site/logo/new logo for cources/MoP_AEO_logo.png",
+    "category": "Project Management",
+    "options": [
+      {
+        "type": "Exam Voucher",
+        "price": 29500.00,
+        "description": "Voucher for the MoP ® Foundation certification exam, providing access to the official examination."
+      },
+      {
+        "type": "Mock Test",
+        "price": "free",
+        "description": "MoP ® Foundation certification exam simulator helps students prepare for the MoP ® Foundation, based on the actual exam pattern."
+      },
+      {
+        "type": "Corporate Training",
+        "description": "Customized MoP® Foundation corporate training program to enhance portfolio management skills across your organization. Includes hands-on workshops and an exam simulator aligned with the official certification."
+      }
+    ]
+  },
+  {
+    "name": "P3O ® Foundation.",
+    "description": "P3O stands for Portfolio, Programme and Projects Offices. P3O is universally applicable guidance by Axelos; to help organizations build support structures that enable the successful delivery of their portfolios of change programmes and projects.",
+    "image": "../assets/assets_dg-site/logo/new logo for cources/MoP_AEO_logo.png",
+    "category": "Project Management",
+    "options": [
+      {
+        "type": "Exam Voucher",
+        "price": 29500.00,
+        "description": "Voucher for the P3O ® Foundation certification exam, granting access to the official examination."
+      },
+      {
+        "type": "Mock Test",
+        "price": "free",
+        "description": "P3O®Foundation certification exam simulator helps students prepare for the P3O®Foundation, based on the actual exam pattern.."
+      },
+      {
+        "type": "Corporate Training",
+        "description": "Tailored P3O® Foundation corporate training program designed to establish effective Portfolio, Programme, and Projects Offices within your organization. Includes practical workshops and a comprehensive exam simulator aligned with the official certification."
+      }
+    ]
+  }
+]
