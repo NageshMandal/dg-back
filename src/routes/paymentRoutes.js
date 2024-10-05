@@ -2,6 +2,7 @@ const express = require('express');
 const router = express.Router();
 const Razorpay = require('razorpay');
 const { RAZORPAY_ID_KEY, RAZORPAY_SECRET_KEY } = process.env;
+const { sendOrderConfirmationEmail } = require('../utils/sendOrderConfirmationEmail'); // Update the path as necessary
 
 const razorpayInstance = new Razorpay({
     key_id: RAZORPAY_ID_KEY,
@@ -11,15 +12,25 @@ const razorpayInstance = new Razorpay({
 // Create Order Route
 router.post('/createOrder', async (req, res) => {
     try {
-        const { amount } = req.body; // Expecting amount to be sent in request body
+        const { amount, email, items } = req.body; // Expecting amount, email, and items to be sent in request body
         const options = {
             amount: amount * 100, // Convert amount to paise
             currency: 'INR',
             receipt: `receipt_order_${new Date().getTime()}`
         };
 
-        razorpayInstance.orders.create(options, (err, order) => {
+        razorpayInstance.orders.create(options, async (err, order) => {
             if (!err) {
+                // Constructing order details to send in email
+                const orderDetails = {
+                    _id: order.id,
+                    total: amount,
+                    items: items // Ensure you pass the items details in the request body
+                };
+
+                // Send order confirmation email
+                await sendOrderConfirmationEmail(email, orderDetails);
+
                 res.status(200).json({
                     success: true,
                     orderId: order.id,
