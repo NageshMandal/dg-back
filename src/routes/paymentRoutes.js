@@ -25,15 +25,24 @@ router.post('/createOrder', async (req, res) => {
             receipt: `receipt_order_${new Date().getTime()}`
         };
 
-        razorpayInstance.orders.create(options, async (err, order) => {
-            if (!err) {
-                const orderDetails = {
-                    _id: order.id,
-                    total: amount,
-                    items: items // Ensure you pass the items details in the request body
-                };
+        // Create the Razorpay order
+        const order = await razorpayInstance.orders.create(options);
+        
+        if (order) {
+            const orderDetails = {
+                _id: order.id,
+                total: amount,
+                items: items // Ensure you pass the items details in the request body
+            };
 
-                // Send order confirmation email
+            // Proceed to handle the payment through Razorpay (example: redirect to payment page)
+            // This part depends on your payment flow (not included in this snippet)
+
+            // After confirming payment (you might want to integrate webhook or payment confirmation here)
+            const paymentSuccessful = true; // Replace with actual payment confirmation logic
+
+            if (paymentSuccessful) {
+                // Send order confirmation email after successful payment
                 await sendOrderConfirmationEmail(email, orderDetails);
                 
                 res.status(200).json({
@@ -43,14 +52,15 @@ router.post('/createOrder', async (req, res) => {
                     key_id: RAZORPAY_ID_KEY
                 });
             } else {
-                res.status(400).json({ success: false, msg: 'Something went wrong!' });
+                res.status(400).json({ success: false, msg: 'Payment failed, order not confirmed!' });
             }
-        });
+        } else {
+            res.status(400).json({ success: false, msg: 'Order creation failed!' });
+        }
     } catch (error) {
         console.error(error);
         res.status(500).json({ success: false, msg: 'Internal Server Error' });
     }
 });
-
 
 module.exports = router;
